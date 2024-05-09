@@ -1,7 +1,7 @@
 function drawScatterChart(dataset){
     const margin = { top: 50, right: 20, bottom: 30, left: 80 };
     const width = 920 - margin.left - margin.right;
-    const height = 630 - margin.top - margin.bottom;
+    const height = 530 - margin.top - margin.bottom;
 
     //coordinates = dataset.map(d => {return [d["Time"], d["Year"]]});
     //info = dataset.map(d => {return [d["Name"], d["Nationality"], d["Doping"]]});
